@@ -1,7 +1,7 @@
-from fastapi import FastAPI
+fastapi
+uvicorn
+python-docx
+python-dotenv
+langchain
+openai
 
-app = FastAPI()
-
-@app.get("/")
-def root():
-    return {"status": "HRM_GrantsAgent is running"}
